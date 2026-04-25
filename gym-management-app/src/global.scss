@@ -35,3 +35,14 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 // @import '@ionic/angular/css/palettes/dark.system.css';
+ion-searchbar.srchBar {
+    --icon-color: var(--ion-color-medium);
+    --border-radius: 20px;
+    --background: var(--ion-color-dark);
+    .searchbar-input {
+        font-size: 0.9rem !important;
+        color: var(--ion-color-light);
+    
+    }
+
+}
